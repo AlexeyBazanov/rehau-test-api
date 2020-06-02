@@ -1,0 +1,200 @@
+{
+  "configurations" : [
+    {
+      "id": 1,
+      "number": "XXX-YYY-111-222",
+      "name": "Конфигурация 1",
+      "description": "Описание Конфигурации 1"
+    },
+    {
+      "id": 2,
+      "number": "XXX-YYY-111-333",
+      "name": "Конфигурация 2",
+      "description": "Описание Конфигурации 2"
+    },
+    {
+      "id": 3,
+      "number": "XXX-YYY-111-444",
+      "name": "Конфигурация 3",
+      "description": "Описание Конфигурации 3"
+    },
+    {
+      "id": 4,
+      "number": "XXX-YYY-111-555",
+      "name": "Конфигурация 4",
+      "description": "Описание Конфигурации 4"
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "configurationId": 1,
+      "name": "Шумоизоляция",
+      "value": 4,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": 1,
+      "configurationId": 2,
+      "name": "Шумоизоляция",
+      "value": 3,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": 1,
+      "configurationId": 3,
+      "name": "Шумоизоляция",
+      "value": 5,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": 1,
+      "configurationId": 4,
+      "name": "Шумоизоляция",
+      "value": 4,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": 2,
+      "configurationId": 1,
+      "name": "Солнцезащита",
+      "value": 7,
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": 2,
+      "configurationId": 2,
+      "name": "Солнцезащита",
+      "value": 6,
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": 2,
+      "configurationId": 3,
+      "name": "Солнцезащита",
+      "value": 10,
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": 2,
+      "configurationId": 4,
+      "name": "Солнцезащита",
+      "value": 7,
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": 3,
+      "configurationId": 1,
+      "name": "Теплоизоляция",
+      "value": 4,
+      "min": 1,
+      "max": 6
+    },
+    {
+      "id": 3,
+      "configurationId": 2,
+      "name": "Теплоизоляция",
+      "value": 4,
+      "min": 1,
+      "max": 6
+    },
+    {
+      "id": 3,
+      "configurationId": 3,
+      "name": "Теплоизоляция",
+      "value": 6,
+      "min": 1,
+      "max": 6
+    },
+    {
+      "id": 3,
+      "configurationId": 4,
+      "name": "Теплоизоляция",
+      "value": 4,
+      "min": 1,
+      "max": 6
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "orderNumber": "111-222-333",
+      "orderDate": "2020-06-03",
+      "orderAddress": "Ленинский проспект, д.35, кв. 10",
+      "createdAt": "2020-06-03 12:22:01"
+    },
+    {
+      "id": 2,
+      "orderNumber": "111-222-555",
+      "orderDate": "2020-06-04",
+      "orderAddress": "Ленинский проспект, д.35, кв. 10",
+      "createdAt": "2020-06-04 14:03:12"
+    }
+  ],
+  "requestsItems": [
+    {
+      "id": 1,
+      "requestId": 1,
+      "configurationId": 1,
+      "configurationNumber": "XXX-YYY-111-222",
+      "passportNumber": "111-111-111-111",
+      "orderPositionNumber": 1,
+      "orderPositionDescription": "Окно в кухню",
+      "passportLink": "https://passport-rehau-g3.com/f42ss56g",
+      "passportDocumentLink": "https://api-rehau-g3.com/v1/passports/files/documents/111-111-111-111.pdf",
+      "passportQrCodeLink": "https://api-rehau-g3.com/v1/passports/files/qr_codes/111-111-111-111.png",
+      "createdAt": "2020-06-03 12:22:01",
+      "accept": "true"
+    },
+    {
+      "id": 2,
+      "requestId": 1,
+      "configurationId": null,
+      "configurationNumber": "4444-4444-4444",
+      "passportNumber": null,
+      "orderPositionNumber": 2,
+      "orderPositionDescription": "Окно в комнату",
+      "passportLink": null,
+      "passportDocumentLink": null,
+      "passportQrCodeLink": null,
+      "createdAt": "2020-06-03 12:22:01",
+      "accept": "false"
+    },
+    {
+      "id": 3,
+      "requestId": 2,
+      "configurationId": 3,
+      "configurationNumber": "XXX-YYY-111-444",
+      "passportNumber": "222-222-222-222",
+      "orderPositionNumber": 1,
+      "orderPositionDescription": "Окно в кухню",
+      "passportLink": "https://passport-rehau-g3.com/h35cx234",
+      "passportDocumentLink": "https://api-rehau-g3.com/v1/passports/files/documents/222-222-222-222.pdf",
+      "passportQrCodeLink": "https://api-rehau-g3.com/v1/passports/files/qr_codes/222-222-222-222.png",
+      "createdAt": "2020-06-03 12:22:01",
+      "accept": "true"
+    },
+    {
+      "id": 4,
+      "requestId": 2,
+      "configurationId": 3,
+      "configurationNumber": "XXX-YYY-111-444",
+      "passportNumber": "333-333-333-333",
+      "orderPositionNumber": 2,
+      "orderPositionDescription": "Окно в комнату",
+      "passportLink": "https://passport-rehau-g3.com/gt4d621g",
+      "passportDocumentLink": "https://api-rehau-g3.com/v1/passports/files/documents/333-333-333-333.pdf",
+      "passportQrCodeLink": "https://api-rehau-g3.com/v1/passports/files/qr_codes/333-333-333-333.png",
+      "createdAt": "2020-06-03 12:22:01",
+      "accept": "true"
+    }
+  ]
+}
